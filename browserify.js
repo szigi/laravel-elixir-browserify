@@ -159,7 +159,7 @@ function loadConfig() {
         ],
 
         watchify: {
-            enabled: Elixir.isWatching(),
+            enabled: Elixir.isWatching,
 
             // https://www.npmjs.com/package/watchify#usage
             options: {}
